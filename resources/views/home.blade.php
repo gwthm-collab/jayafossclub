@@ -1,5 +1,5 @@
 @extends('layouts.app')
-<title>Home</title>
+@section('title', 'Home')
 @section('content')
 @include('inc.showcase')
 <div class="col-md-8 col-lg-8">

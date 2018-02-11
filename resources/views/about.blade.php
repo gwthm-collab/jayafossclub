@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', 'About')
+
 @section('content')
 <div class="col-md-8 col-lg-8">
   <div class="jumbotron well">

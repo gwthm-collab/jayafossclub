@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', 'Contact')
+
 @section('content')
 <div class="container-fluid">
   <h3>Send us your feedback</h3>

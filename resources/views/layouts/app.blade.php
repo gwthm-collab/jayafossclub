@@ -2,8 +2,10 @@
 <html lang="{{ app()->getLocale() }}">
   <head>
     <meta charset="utf-8">
+    <title>@yield('title') - Jaya Foss Club</title>
     <link rel="stylesheet" href="/css/app.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="{{{ asset('img/tux.png') }}}">
   </head>
   <body>
     @include('inc.navbar')
